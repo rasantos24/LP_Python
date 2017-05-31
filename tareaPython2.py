@@ -84,6 +84,7 @@ def tarea3(data):
 
 return base64.b64encode(saigo)
 
+"""
 def tarea4():
 	if not request.json or not "data" in request.json:
 		abort(400)
@@ -109,7 +110,7 @@ def shrink(imageD, wantL, wantA)
 	cutB = wantL
 	cutA = 0
 	cutB = 0
-"""
+
 	agmh = request.json["name"]
 	digi = request.json["data"]
 	ancho = request.json["tamanio"]["ancho"]
